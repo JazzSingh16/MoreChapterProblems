@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BB671C59-2F79-4B1C-A150-3B94B3908E63}</ProjectGuid>
+    <ProjectGuid>{A28A11F1-30DF-44CA-9A68-B0449BA7F923}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MoreChapterProblems</RootNamespace>
-    <AssemblyName>MoreChapterProblems</AssemblyName>
+    <RootNamespace>Pg195Problem4</RootNamespace>
+    <AssemblyName>Pg195Problem4</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Furniture.cs" />
+    <Compile Include="ChatAWhile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
