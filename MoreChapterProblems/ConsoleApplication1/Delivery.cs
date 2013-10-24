@@ -34,10 +34,12 @@ namespace ConsoleApplication1
                 if(myzip == zip[i]) 
                 {
                     Console.WriteLine("Yes we deliever there");
+                    found = true;
                 }
                 if (!found)
                 {
                     Console.WriteLine("No we do not deliever there");
+                    found = false;
                 }
             }
 

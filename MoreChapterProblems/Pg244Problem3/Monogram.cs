@@ -7,26 +7,18 @@ namespace Pg244Problem3
 {
     class Monogram
     {
-        static void Main(string[] args)
+        public static void DisplayMonogram(string FirstInitial, string MiddleInitial, string LastInitial)
         {
-            string myfirst;
-            string mymiddle;
-            string mylast;
-
-            string friendfirst;
-            string friendmiddle;
-            string friendlast;
-            
-
-            DisplayMonogram(myfirst, mymiddle, mylast);
-            
+             Console.WriteLine("** {0}. {1}. {2}. **", FirstInitial, MiddleInitial, LastInitial);
         }
-        public static void DisplayMonogram(string first, string middle, string last)
+
+        public static void Main()
         {
-            Console.WriteLine("** {0}. {1}. {2}. **", first, middle, last);
-
-
+            DisplayMonogram("T", "I", "N");
+            DisplayMonogram("J", "M", "F");
         }
-        }
+
     }
+
 }
+    
