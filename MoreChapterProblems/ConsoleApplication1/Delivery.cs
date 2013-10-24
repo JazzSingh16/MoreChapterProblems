@@ -35,14 +35,16 @@ namespace ConsoleApplication1
                 {
                     Console.WriteLine("Yes we deliever there");
                     found = true;
+                    break;
                 }
+            }
+
                 if (!found)
                 {
                     Console.WriteLine("No we do not deliever there");
-                    found = false;
                 }
             }
 
         }
     }
-}
+
