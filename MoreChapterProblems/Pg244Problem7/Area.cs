@@ -9,27 +9,21 @@ namespace Pg244Problem7
     {
         public static void Main()
         {
-
-            int width = 5;
-            int height = 3;
-
+            int width = 7;
+            int height = 2;
             ComputeArea(width, height);
             ComputeArea(Convert.ToDouble(width), Convert.ToDouble(height));
-            ComputeArea(width, Convert.ToDouble(height));
-
+            ComputeArea(Convert.ToDouble(width), height);
         }
-
         public static void ComputeArea(int w, int h)
         {
             int area = w * h;
         }
-
         public static void ComputeArea(double w, double h)
         {
             double area = w * h;
         }
-
-        public static void ComputeArea(int w, double h)
+        public static void ComputeArea(double w, int h)
         {
             double area = w * h;
         }

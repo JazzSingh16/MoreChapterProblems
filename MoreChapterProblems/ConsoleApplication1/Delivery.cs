@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication1
+namespace Pg195Problem2
 {
     class Delivery
     {
@@ -30,8 +30,8 @@ namespace ConsoleApplication1
 
             for (int i = 0; i < zip.Length; i++)
             {
-                
-                if(myzip == zip[i]) 
+
+                if (myzip == zip[i])
                 {
                     Console.WriteLine("Yes we deliever there");
                     found = true;
@@ -39,12 +39,13 @@ namespace ConsoleApplication1
                 }
             }
 
-                if (!found)
-                {
-                    Console.WriteLine("No we do not deliever there");
-                }
+            if (!found)
+            {
+                Console.WriteLine("No we do not deliever there");
             }
+
 
         }
     }
 
+}

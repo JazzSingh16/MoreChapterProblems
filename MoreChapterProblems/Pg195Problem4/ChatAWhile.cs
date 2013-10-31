@@ -22,35 +22,13 @@ namespace Pg195Problem4
             string input = Console.ReadLine();
             int myzip = Convert.ToInt32(input);
 
+            for (int i = 0; i < zip.Length; i++)
             {
 
-                if (myzip == zip[0])
+                if (myzip == zip[i])
                 {
-                    Console.WriteLine("Per-Minute Rate($) is 0.07, which is multiplied by {0} minutes of the call");
+                    Console.WriteLine("Per-Minute Rate($) is {0}, which is multiplied by {1} minutes of the call", zip[i]);
                 }
-                if (myzip == zip[1])
-                {
-                    Console.WriteLine("Per-Minute Rate($) is 0.10, which is multiplied by {0} minutes of the call");
-                }
-                if (myzip == zip[2])
-                {
-                    Console.WriteLine("Per-Minute Rate($) is 0.05, which is multiplied by {0} minutes of the call");
-                }
-                if (myzip == zip[3])
-                {
-                    Console.WriteLine("Per-Minute Rate($) is 0.16, which is multiplied by {0} minutes of the call");
-                }
-                if (myzip == zip[4])
-                {
-                    Console.WriteLine("Per-Minute Rate($) is 0.24, which is multiplied by {0} minutes of the call");
-                }
-                if (myzip == zip[5])
-                {
-                    Console.WriteLine("Per-Minute Rate($) is 0.14, which is multiplied by {0} minutes of the call");
-                }
-
-
-              
             }
         }
     }

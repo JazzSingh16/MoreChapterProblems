@@ -18,33 +18,17 @@ namespace MoreChapterProblems
             {
                 Console.WriteLine("Price is $100");
             }
-
-            if (input != "P")
-            {
-                Console.WriteLine("Price is $0");
-            }
-
-            if (input == "O")
+            else if (input == "O")
             {
                 Console.WriteLine("Price is $225");
             }
-
-            if (input != "O")
-            {
-                Console.WriteLine("Price is $0");
-            }
-
-            if (input == "M")
+            else if (input == "M")
             {
                 Console.WriteLine("Price is $310");
             }
-
-            if (input != "M")
-            {
+            else
                 Console.WriteLine("Price is $0");
             }
 
-          
-        }
     }
 }
